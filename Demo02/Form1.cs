@@ -16,5 +16,10 @@ namespace Demo02
         {
             InitializeComponent();
         }
+
+        private void btnbutt_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hi");
+        }
     }
 }
